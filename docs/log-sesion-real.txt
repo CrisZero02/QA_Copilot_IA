@@ -1,0 +1,5 @@
+Historia ingresada: "Como usuario quiero registrarme con email y contraseña"
+Casos generados: positivo, negativo, límite
+Datos de prueba: email válido, email inválido, contraseña corta
+Defecto detectado: backend no valida formato de email
+Feedback: caso aceptado

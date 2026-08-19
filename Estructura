@@ -1,0 +1,44 @@
+qa-copilot-ia/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── StoryInput.jsx
+│   │   │   ├── TestCaseList.jsx
+│   │   │   ├── BugAnalysis.jsx
+│   │   │   └── Dashboard.jsx
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend/
+│   ├── src/
+│   │   ├── agents/
+│   │   │   ├── captureAgent.js
+│   │   │   ├── reviewAgent.js
+│   │   │   ├── testCaseAgent.js
+│   │   │   ├── dataAgent.js
+│   │   │   ├── bugAgent.js
+│   │   │   └── learningAgent.js
+│   │   ├── routes/
+│   │   │   ├── stories.js
+│   │   │   ├── tests.js
+│   │   │   └── bugs.js
+│   │   ├── models/
+│   │   │   ├── Story.js
+│   │   │   ├── TestCase.js
+│   │   │   └── Bug.js
+│   │   ├── db.js
+│   │   └── server.js
+│   ├── package.json
+│   └── .env
+│
+├── docs/
+│   ├── arquitectura.png
+│   ├── uml-casos-de-uso.png
+│   ├── log-sesion-real.txt
+│   └── README.md
+│
+└── README.md
